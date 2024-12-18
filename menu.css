@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: system-ui;
+}
+h5{
+    color: white;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+  text-transform: uppercase;
+}
+
+li{
+    color: white;
+}
+
+body{
+    line-height: 1, 6;
+    font-size: large;
+}
+
+
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    transition: ease 1000ms;
+}
+
+.logo img {
+    width: 120px;
+    margin-right: 10px;
+    transition: ease 1000ms;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease 1000ms;
+}
+
+a:hover,a.active {
+    color: orange;
+}
+
+.contenu {
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    box-shadow:
+        /*x y  flou couleur*/
+        2px 2px 10px rgb(163, 161, 161);
+}
+
+.contenu:hover {
+    /*x y  flou couleur*/
+    box-shadow: 2px 2px 10px orange;
+
+}
+.contenu img{ width: 200px;
+    transition: ease 1000ms;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.contenu h3{
+    position: absolute;
+    bottom: 3px;
+    font-size: 22px;
+    left: 50%;
+    color: white;
+     text-align: center;
+    transform: translate(-50%,0);
+    text-shadow: 1px 1px 10px rgb(41, 38, 38);
+}
+
+.welcome-text{
+    margin: 10px;
+    font-size: 22.5px;
+    padding: 10px 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.welcome{
+    font-size: 22.5px;
+    padding: 10px 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+
+h1{
+    text-align: center;
+}
+
+.box-pizza{
+    background-image: url(Pouletroti.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+    transition: ease 1000ms;
+}
+
+.box-griot{
+    background-image: url(Haitian-Food.png);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+    
+}
+
+.box-complet{
+    background-image: url(grospoulet.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-gratine{
+    background-image: url(a5145b328af97fc3bc59a5b010bfb691.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-kole{
+    background-image: url(771fb564f0291b6335f86148ad272772.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-riz{
+    background-image: url(LegumeImage.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-chocolat{
+    background-image: url(4b18d34d8b2bf8c9b4e5346bf81e9e7e.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-tira{
+    background-image: url(b746ee2653c180da2c34f6cfb3df2570.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-bana{
+    background-image: url(c6f01bef9c13add9bf586ae2d304ec07.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-donuts{
+    background-image: url(0495ef554b30c4a1bc56e714a859ec72.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-entier{
+    background-image: url(9d2593780fe22eba7acf1ea6e9e57110.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-caramel{
+    background-image: url(b9757a8fb55f41f0409adc361c2b695f.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+
+.box-eau{
+    background-image: url(3fca955e7371928bf160a7904d2f6e54.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-jus{
+    background-image: url(75c977652567f7a4764bc2573ee552fd.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-shake{
+    background-image: url(15c8cb310f48822e351de9740a75ceb8.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-cocktail{
+    background-image: url(9bdec37eaaecf871d01e04acfe88ba6f.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-champ{
+    background-image: url(8201c975ce2ca8abb1307f218a19bc49.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.box-vin{
+    background-image: url(35d150c7764223beb17580bdd00041e7.jpg);
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+
+footer{
+    background-color: black;
+    padding: 60px 0px 60px 0px;
+    width: 100%;
+    margin-top: 210px;
+    color: white;
+    position: relative;
+
+}
+.footer-container{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    align-items: flex-start;
+font-size: 20px;
+}
+
+img{
+    width: 20px;
+}
+
+.footer-element{
+    text-decoration: none;
+}
+
+.listes-icones a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.listes-icones a:hover{
+    color: orange;
+}
+
